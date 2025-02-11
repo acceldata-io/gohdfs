@@ -15,7 +15,7 @@ import (
 	hdfs "github.com/acceldata-io/gohdfs/internal/protocol/hadoop_hdfs"
 	"github.com/acceldata-io/gohdfs/internal/rpc"
 	"github.com/acceldata-io/gohdfs/internal/transfer"
-	krb "github.com/jcmturner/gokrb5/v8/client"
+	krb "github.com/acceldata-io/gokrb5/client"
 )
 
 type dialContext func(ctx context.Context, network, addr string) (net.Conn, error)

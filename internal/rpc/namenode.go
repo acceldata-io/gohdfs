@@ -10,7 +10,7 @@ import (
 
 	hadoop "github.com/acceldata-io/gohdfs/internal/protocol/hadoop_common"
 	hdfs "github.com/acceldata-io/gohdfs/internal/protocol/hadoop_hdfs"
-	krb "github.com/jcmturner/gokrb5/v8/client"
+	krb "github.com/acceldata-io/gokrb5/client"
 	"google.golang.org/protobuf/proto"
 )
 

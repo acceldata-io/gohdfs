@@ -9,10 +9,10 @@ import (
 
 	hadoop "github.com/acceldata-io/gohdfs/internal/protocol/hadoop_common"
 	"github.com/acceldata-io/gohdfs/internal/sasl"
-	"github.com/jcmturner/gokrb5/v8/gssapi"
-	"github.com/jcmturner/gokrb5/v8/iana/keyusage"
-	"github.com/jcmturner/gokrb5/v8/spnego"
-	krbtypes "github.com/jcmturner/gokrb5/v8/types"
+	"github.com/acceldata-io/gokrb5/gssapi"
+	"github.com/acceldata-io/gokrb5/iana/keyusage"
+	"github.com/acceldata-io/gokrb5/spnego"
+	krbtypes "github.com/acceldata-io/gokrb5/types"
 )
 
 const saslRpcCallId = -33

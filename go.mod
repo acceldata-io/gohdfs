@@ -2,8 +2,10 @@ module github.com/acceldata-io/gohdfs
 
 go 1.23
 
+toolchain go1.23.5
+
 require (
-	github.com/jcmturner/gokrb5/v8 v8.4.4
+	github.com/acceldata-io/gokrb5 v1.0.0
 	github.com/stretchr/testify v1.10.0
 	google.golang.org/protobuf v1.36.4
 )

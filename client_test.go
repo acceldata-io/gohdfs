@@ -9,9 +9,9 @@ import (
 	"testing"
 
 	"github.com/acceldata-io/gohdfs/hadoopconf"
-	krb "github.com/jcmturner/gokrb5/v8/client"
-	"github.com/jcmturner/gokrb5/v8/config"
-	"github.com/jcmturner/gokrb5/v8/credentials"
+	krb "github.com/acceldata-io/gokrb5/client"
+	"github.com/acceldata-io/gokrb5/config"
+	"github.com/acceldata-io/gokrb5/credentials"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

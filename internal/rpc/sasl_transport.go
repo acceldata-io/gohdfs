@@ -6,10 +6,10 @@ import (
 	"io"
 
 	hadoop "github.com/acceldata-io/gohdfs/internal/protocol/hadoop_common"
-	"github.com/jcmturner/gokrb5/v8/crypto"
-	"github.com/jcmturner/gokrb5/v8/gssapi"
-	"github.com/jcmturner/gokrb5/v8/iana/keyusage"
-	krbtypes "github.com/jcmturner/gokrb5/v8/types"
+	"github.com/acceldata-io/gokrb5/crypto"
+	"github.com/acceldata-io/gokrb5/gssapi"
+	"github.com/acceldata-io/gokrb5/iana/keyusage"
+	krbtypes "github.com/acceldata-io/gokrb5/types"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -3,6 +3,7 @@ gohdfs*
 hdfs
 !hdfs/
 minicluster.log
+**/examples/**
 
 
 **/vendor/**

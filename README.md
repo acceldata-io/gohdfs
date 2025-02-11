@@ -1,6 +1,9 @@
 <img src="docs/gopher.png" alt="gopher" align="right" width="200"/>
 
 HDFS for Go
+====
+
+[![GoDoc](https://godoc.org/github.com/acceldata-io/gohdfs/web?status.svg)](https://godoc.org/github.com/acceldata-io/gohdfs)
 
 This is a native golang client for hdfs. It connects directly to the namenode using
 the protocol buffers API.
